@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2F3D5D531EFCE7E600A16312 /* RunLoopTaskManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D5D521EFCE7E600A16312 /* RunLoopTaskManage.m */; };
-		2F3D5D561EFCEC0900A16312 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D5D541EFCEC0900A16312 /* Cell.m */; };
-		2F3D5D581EFCEC1900A16312 /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F3D5D571EFCEC1900A16312 /* spaceship.jpg */; };
+		2F74619B1F00B12300B3B001 /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F74619A1F00B11800B3B001 /* spaceship.jpg */; };
+		2F74619C1F00B12800B3B001 /* Cell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F7461991F00B11800B3B001 /* Cell.h */; };
+		2F74619D1F00B12800B3B001 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7461981F00B11800B3B001 /* Cell.m */; };
 		2F8C3B771EFCE3CC00215CA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C3B761EFCE3CC00215CA7 /* AppDelegate.m */; };
 		2F8C3B7A1EFCE3CC00215CA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C3B791EFCE3CC00215CA7 /* ViewController.m */; };
 		2F8C3B7D1EFCE3CC00215CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C3B7B1EFCE3CC00215CA7 /* Main.storyboard */; };
@@ -40,9 +41,9 @@
 /* Begin PBXFileReference section */
 		2F3D5D511EFCE7E600A16312 /* RunLoopTaskManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopTaskManage.h; sourceTree = "<group>"; };
 		2F3D5D521EFCE7E600A16312 /* RunLoopTaskManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTaskManage.m; sourceTree = "<group>"; };
-		2F3D5D541EFCEC0900A16312 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = "../../git DownLoad Study/RunLoopWorkDistribution/RunLoopWorkDistribution/Cell.m"; sourceTree = "<group>"; };
-		2F3D5D551EFCEC0900A16312 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = "../../git DownLoad Study/RunLoopWorkDistribution/RunLoopWorkDistribution/Cell.h"; sourceTree = "<group>"; };
-		2F3D5D571EFCEC1900A16312 /* spaceship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spaceship.jpg; path = "../../git DownLoad Study/RunLoopWorkDistribution/RunLoopWorkDistribution/spaceship.jpg"; sourceTree = "<group>"; };
+		2F7461981F00B11800B3B001 /* Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		2F7461991F00B11800B3B001 /* Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		2F74619A1F00B11800B3B001 /* spaceship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceship.jpg; sourceTree = "<group>"; };
 		2F8C3B721EFCE3CC00215CA7 /* TableRunLoopHighDefinitionImageLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableRunLoopHighDefinitionImageLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8C3B751EFCE3CC00215CA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F8C3B761EFCE3CC00215CA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,9 +116,9 @@
 				2F8C3B791EFCE3CC00215CA7 /* ViewController.m */,
 				2F3D5D511EFCE7E600A16312 /* RunLoopTaskManage.h */,
 				2F3D5D521EFCE7E600A16312 /* RunLoopTaskManage.m */,
-				2F3D5D551EFCEC0900A16312 /* Cell.h */,
-				2F3D5D541EFCEC0900A16312 /* Cell.m */,
-				2F3D5D571EFCEC1900A16312 /* spaceship.jpg */,
+				2F7461991F00B11800B3B001 /* Cell.h */,
+				2F7461981F00B11800B3B001 /* Cell.m */,
+				2F74619A1F00B11800B3B001 /* spaceship.jpg */,
 				2F8C3B7B1EFCE3CC00215CA7 /* Main.storyboard */,
 				2F8C3B7E1EFCE3CC00215CA7 /* Assets.xcassets */,
 				2F8C3B801EFCE3CC00215CA7 /* LaunchScreen.storyboard */,
@@ -212,6 +213,7 @@
 				TargetAttributes = {
 					2F8C3B711EFCE3CC00215CA7 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
 					};
 					2F8C3B891EFCE3CD00215CA7 = {
 						CreatedOnToolsVersion = 9.0;
@@ -248,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3D5D581EFCEC1900A16312 /* spaceship.jpg in Resources */,
+				2F74619B1F00B12300B3B001 /* spaceship.jpg in Resources */,
 				2F8C3B821EFCE3CC00215CA7 /* LaunchScreen.storyboard in Resources */,
 				2F8C3B7F1EFCE3CC00215CA7 /* Assets.xcassets in Resources */,
 				2F8C3B7D1EFCE3CC00215CA7 /* Main.storyboard in Resources */,
@@ -276,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3D5D561EFCEC0900A16312 /* Cell.m in Sources */,
+				2F74619C1F00B12800B3B001 /* Cell.h in Sources */,
+				2F74619D1F00B12800B3B001 /* Cell.m in Sources */,
 				2F8C3B7A1EFCE3CC00215CA7 /* ViewController.m in Sources */,
 				2F3D5D531EFCE7E600A16312 /* RunLoopTaskManage.m in Sources */,
 				2F8C3B851EFCE3CC00215CA7 /* main.m in Sources */,
@@ -439,10 +442,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TLWP697Z5D;
 				INFOPLIST_FILE = TableRunLoopHighDefinitionImageLoading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.TableRunLoopHighDefinitionImageLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c415210e-19b7-4359-bfbf-737e2faff0cf";
+				PROVISIONING_PROFILE_SPECIFIER = 6ceng.Common.DeveloperCer;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,10 +458,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TLWP697Z5D;
 				INFOPLIST_FILE = TableRunLoopHighDefinitionImageLoading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.TableRunLoopHighDefinitionImageLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c415210e-19b7-4359-bfbf-737e2faff0cf";
+				PROVISIONING_PROFILE_SPECIFIER = 6ceng.Common.DeveloperCer;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
